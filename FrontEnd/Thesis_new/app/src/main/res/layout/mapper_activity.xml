@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/coordinatorLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".main.MapperActivity">
+
+        <fragment
+            android:id="@+id/mapper_ar_fragment"
+            android:name="com.example.thesis_new.helper.CloudAnchorFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/clear_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/saffron"
+            android:text="Clear"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/upload_anchor_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/saffron"
+            android:text="Upload Anchor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/upload_signals_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/saffron"
+            android:text="Upload Signals"
+            app:layout_constraintBottom_toTopOf="@+id/upload_anchor_button"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/place_anchor_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@color/saffron"
+            android:text="Place anchor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/upload_anchor_button"
+            app:layout_constraintStart_toEndOf="@+id/clear_button" />
+
+        <Button
+            android:id="@+id/measureSignals_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@color/saffron"
+            android:text="Measure"
+            app:layout_constraintBottom_toTopOf="@+id/place_anchor_button"
+            app:layout_constraintEnd_toStartOf="@+id/upload_anchor_button"
+            app:layout_constraintStart_toEndOf="@+id/clear_button" />
+
+        <TextView
+            android:id="@+id/instructions_mapping"
+            style="@style/MyTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="37dp"
+            android:text="Move your phone to map the place"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="@+id/mapper_ar_fragment"
+            app:layout_constraintStart_toStartOf="@+id/mapper_ar_fragment"
+            app:layout_constraintTop_toTopOf="@+id/mapper_ar_fragment" />
+
+        <Chronometer
+            android:id="@+id/view_timer"
+            style="@style/TimerViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/instructions_mapping"
+            app:layout_constraintTop_toTopOf="@+id/instructions_mapping" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

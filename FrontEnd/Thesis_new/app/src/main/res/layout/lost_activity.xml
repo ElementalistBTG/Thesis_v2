@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/coordinatorLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".main.LostActivity">
+
+        <fragment
+            android:id="@+id/lost_ar_fragment"
+            android:name="com.example.thesis_new.helper.CloudAnchorFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/find_me_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#824353"
+            android:text="Find Me"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/saffron"
+            android:text="Reset"
+            app:layout_constraintBottom_toTopOf="@+id/find_me_button"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/RoomViaBestSignalTextview"
+            style="@style/MyTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:text="RoomViaBestSignal: "
+            app:layout_constraintStart_toStartOf="@+id/lost_ar_fragment"
+            app:layout_constraintTop_toTopOf="@+id/lost_ar_fragment" />
+
+        <TextView
+            android:id="@+id/PointViaBestSignalTextview"
+            style="@style/MyTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:text="PointViaBestSignal: "
+            app:layout_constraintStart_toStartOf="@+id/lost_ar_fragment"
+            app:layout_constraintTop_toBottomOf="@+id/RoomViaBestSignalTextview" />
+
+        <TextView
+            android:id="@+id/CoordinatesViaBestSignalTextview"
+            style="@style/MyTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:text="CoordinatesViaBestSignal: "
+            app:layout_constraintStart_toStartOf="@+id/lost_ar_fragment"
+            app:layout_constraintTop_toBottomOf="@+id/PointViaBestSignalTextview" />
+
+        <TextView
+            android:id="@+id/RoomViaKNNTextview"
+            style="@style/MyTextViewStyle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:text="RoomViaKNN: "
+            app:layout_constraintStart_toStartOf="@+id/lost_ar_fragment"
+            app:layout_constraintTop_toBottomOf="@+id/CoordinatesViaBestSignalTextview" />
+
+        <TextView
+            android:id="@+id/PointViaKNNTextview"
+            style="@style/MyTextViewStyle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:text="PointViaKNN: "
+            app:layout_constraintStart_toStartOf="@+id/lost_ar_fragment"
+            app:layout_constraintTop_toBottomOf="@+id/RoomViaKNNTextview" />
+
+        <TextView
+            android:id="@+id/CoordinatesViaKNNTextview"
+            style="@style/MyTextViewStyle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:text="CoordinatesViaKNN: "
+            app:layout_constraintStart_toStartOf="@+id/lost_ar_fragment"
+            app:layout_constraintTop_toBottomOf="@+id/PointViaKNNTextview" />
+
+        <TextView
+            android:id="@+id/RoomViaWKNNTextview"
+            style="@style/MyTextViewStyle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:text="RoomViaWKNN: "
+            app:layout_constraintStart_toStartOf="@+id/lost_ar_fragment"
+            app:layout_constraintTop_toBottomOf="@+id/CoordinatesViaKNNTextview" />
+
+        <TextView
+            android:id="@+id/DistanceFromCloudAnchorTextview"
+            style="@style/MyTextViewStyle4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:text="DistanceFromCloudAnchor: "
+            app:layout_constraintStart_toStartOf="@+id/lost_ar_fragment"
+            app:layout_constraintTop_toBottomOf="@+id/RoomViaWKNNTextview" />
+
+        <TextView
+            android:id="@+id/CloudAnchorsFoundTextview"
+            style="@style/MyTextViewStyle4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="8dp"
+            android:text="CloudAnchorsFound: "
+            app:layout_constraintStart_toStartOf="@+id/lost_ar_fragment"
+            app:layout_constraintTop_toBottomOf="@+id/DistanceFromCloudAnchorTextview" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Positioning"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/lost_ar_fragment" />
+
+        <Button
+            android:id="@+id/lost_measure_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="16dp"
+            android:text="Measure"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="@+id/lost_ar_fragment" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

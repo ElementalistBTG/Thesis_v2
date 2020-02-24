@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cloudAnchors_popup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp"
+    android:background="#62def8">
+
+    <TextView
+        android:id="@+id/info_for_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:text="Data measured from cloud anchors"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/cloud_anchors_List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/colorPrimaryDark"
+        android:dividerHeight="1dp" />
+
+
+</RelativeLayout>

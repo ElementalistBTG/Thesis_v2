@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Thesis_new</string>
+    <!-- Textview for SplashActivity -->
+    <string name="splash_screen_text">Made by Konstantinos Michelis</string>
+
+    <!-- Textviews for MainActivity -->
+    <string name="mainTextView"><u> Welcome to my thesis app! </u></string>
+    <string name="firstActivityInformation">Press this button if you will map a place </string>
+    <string name="secondActivityInformation">Press this button if you are lost"</string>
+    <string name="mapperButtonName">Map</string>
+    <string name="lostButtonName">Are you lost?</string>
+
+</resources>

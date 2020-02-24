@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>PostSignalsServlet</servlet-name>
+        <servlet-class>PostSignalsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PostSignalsServlet</servlet-name>
+        <url-pattern>/PostSignalsServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PostMeasuredSignalsServlet</servlet-name>
+        <servlet-class>PostMeasuredSignalsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PostMeasuredSignalsServlet</servlet-name>
+        <url-pattern>/PostMeasuredSignalsServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetRoomServlet</servlet-name>
+        <servlet-class>GetRoomServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetRoomServlet</servlet-name>
+        <url-pattern>/GetRoomServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetBestPointsServlet</servlet-name>
+        <servlet-class>GetBestPointsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetBestPointsServlet</servlet-name>
+        <url-pattern>/GetBestPointsServlet</url-pattern>
+    </servlet-mapping>
+
+    <listener>
+        <listener-class>AppContextListener</listener-class>
+    </listener>
+
+
+</web-app>

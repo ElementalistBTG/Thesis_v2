@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_coordinates"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp"
+    android:background="#62def8">
+
+    <TextView
+        android:id="@+id/info_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:text="Enter the details for the measurement"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/room_editext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info_textview"
+        android:hint="enter room number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/point_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/room_editext"
+        android:hint="point"
+        android:inputType="number" />
+
+
+</RelativeLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JavaWebApp:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0fec9d6e-8f48-48c3-a468-007fdc56f238" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TZWl2yVLBkSTB0jgARhJmRwYCb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Elementalist\IdeaProjects\JavaWebApp\src" />
+      <recent name="C:\Users\Elementalist\IdeaProjects\JavaWebApp\web\WEB-INF" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fec9d6e-8f48-48c3-a468-007fdc56f238" name="Default Changelist" comment="" />
+      <created>1573668245334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573668245334</updated>
+      <workItem from="1573668249357" duration="3879000" />
+      <workItem from="1573681711751" duration="1569000" />
+      <workItem from="1573721070186" duration="17217000" />
+      <workItem from="1573817315287" duration="6705000" />
+      <workItem from="1573841034725" duration="7441000" />
+      <workItem from="1573930989797" duration="344000" />
+      <workItem from="1573976430935" duration="2594000" />
+      <workItem from="1574247769370" duration="3676000" />
+      <workItem from="1575739558253" duration="983000" />
+      <workItem from="1576331422888" duration="623000" />
+      <workItem from="1576492655301" duration="3168000" />
+      <workItem from="1576566587437" duration="3932000" />
+      <workItem from="1576620004817" duration="3025000" />
+      <workItem from="1576676370207" duration="601000" />
+      <workItem from="1576841159693" duration="4732000" />
+      <workItem from="1577365120824" duration="1216000" />
+      <workItem from="1577535264239" duration="1857000" />
+      <workItem from="1577541875507" duration="56000" />
+      <workItem from="1577731743692" duration="1459000" />
+      <workItem from="1578237921009" duration="2145000" />
+      <workItem from="1578312653553" duration="193000" />
+      <workItem from="1578939386248" duration="88000" />
+      <workItem from="1579698367336" duration="42000" />
+      <workItem from="1579706288000" duration="12000" />
+      <workItem from="1579707240122" duration="7910000" />
+      <workItem from="1579722587093" duration="656000" />
+      <workItem from="1579863777195" duration="886000" />
+      <workItem from="1579900192568" duration="5214000" />
+      <workItem from="1579945341371" duration="618000" />
+      <workItem from="1579947370227" duration="1968000" />
+      <workItem from="1580033998067" duration="546000" />
+      <workItem from="1580070592943" duration="231000" />
+      <workItem from="1580075844544" duration="2680000" />
+      <workItem from="1580196294977" duration="1203000" />
+      <workItem from="1580208065209" duration="613000" />
+      <workItem from="1580297242570" duration="608000" />
+      <workItem from="1580489853900" duration="3427000" />
+      <workItem from="1580645011056" duration="3262000" />
+      <workItem from="1581070333184" duration="137000" />
+      <workItem from="1581106477771" duration="65000" />
+      <workItem from="1581107113371" duration="2532000" />
+      <workItem from="1581169666749" duration="15486000" />
+      <workItem from="1581494034446" duration="2161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-820" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580492890928">
+      <screen x="-1280" y="0" width="1280" height="984" />
+    </state>
+    <state x="-820" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1280.0.1280.984/0.0.1920.1040@-1280.0.1280.984" timestamp="1580492890928" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1579708449204" />
+    <state x="-787" y="259" key="FileChooserDialogImpl" timestamp="1579713326331">
+      <screen x="-1280" y="0" width="1280" height="984" />
+    </state>
+    <state x="-787" y="259" key="FileChooserDialogImpl/-1280.0.1280.984/0.0.1920.1040@-1280.0.1280.984" timestamp="1579713326331" />
+    <state x="740" y="274" key="FileChooserDialogImpl/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1579712064593" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1579711849898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1579711849898" />
+    <state x="-843" y="325" key="com.intellij.ide.util.TipDialog" timestamp="1581494037002">
+      <screen x="-1280" y="0" width="1280" height="984" />
+    </state>
+    <state x="-843" y="325" key="com.intellij.ide.util.TipDialog/-1280.0.1280.984/0.0.1920.1040@-1280.0.1280.984" timestamp="1581494037002" />
+    <state x="655" y="343" key="com.intellij.ide.util.TipDialog/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1581107113300" />
+    <state x="-8" y="-8" width="762" height="1012" maximized="true" key="dock-window-1" timestamp="1579903487035">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-8" y="-8" width="762" height="1012" maximized="true" key="dock-window-1/-1280.0.1280.984/0.0.1920.1040@-1280.0.1280.984" timestamp="1579903487035" />
+    <state x="690" y="285" key="extract.method.dialog" timestamp="1580070756980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="285" key="extract.method.dialog/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1580070756980" />
+    <state x="342" y="140" key="new project wizard" timestamp="1579698406829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1579698406829" />
+  </component>
+</project>
