@@ -6,6 +6,4 @@ To recreate this setup you must port forward the ports 9090->8080. Then you can 
 
 Also, in myApplication helper method in Android, you must change the IP address to the own of your home.
 
-After this, the app can run properly.
-
-Due to the fact that the app is currently connected to the author's firebase, you must change the firebase account so as to be able to write/delete cloud anchrors ids.
+Last step is to copy your personal google-services.json file to the app folder.This is due to the fact that the app is currently connected to the author's firebase, you must change the firebase account so as to be able to write/delete cloud anchrors ids.
