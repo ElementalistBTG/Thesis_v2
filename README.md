@@ -1,4 +1,5 @@
 # Thesis_v2
+(this is the final program for my thesis and introduces indoor mapping using Network Signals and Augmented Reality technologies)
 Indoor positioning using cloud anchors, wifi and cellular signals
 
 This system consists of a front end (Android app) and a backend (Intelij java servlets).
