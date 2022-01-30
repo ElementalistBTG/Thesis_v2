@@ -1,6 +1,5 @@
-# Thesis_v2
+# Thesis (Indoor positioning using cloud anchors, wifi and cellular signals)
 (this is the final program for my thesis and introduces indoor mapping using Network Signals and Augmented Reality technologies)
-Indoor positioning using cloud anchors, wifi and cellular signals
 
 This system consists of a front end (Android app) and a backend (Intelij java servlets).
 To recreate this setup you must port forward the ports 9090->8080. Then you can run the JavaWebApp_war.war on the xampp server (tomcat). The mysql database must have the tables "signalsmapped" and "signalsmeasured" and these tables must have the form shown in the image "mysql".
